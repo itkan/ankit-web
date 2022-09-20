@@ -2,5 +2,5 @@ theme: minima
 
 collections_dir: collections
 collections:
-  books:
+  staff_members:
     output: true
