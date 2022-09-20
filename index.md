@@ -3,7 +3,12 @@ title: Ankit Kumar Gupta
 ---
 
 # Collections
-{% for book in collection.books %}
-  <h2>{{ book.name }} - {{ book.position }}</h2>
-  <p>{{ book.content | markdownify }}</p>
+
+{% for staff_member in site.staff_members %}
+  <h2>
+    <a href="{{ staff_member.url }}">
+      {{ staff_member.name }} - {{ staff_member.position }}
+    </a>
+  </h2>
+  <p>{{ staff_member.content | markdownify }}</p>
 {% endfor %}
