@@ -1,6 +1,7 @@
 theme: minima
 
 collections_dir: collections
+
 collections:
   staff_members:
     output: true
