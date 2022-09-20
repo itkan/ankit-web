@@ -1,1 +1,6 @@
 theme: minima
+
+collections_dir: collections
+collections:
+  books:
+    output: true
