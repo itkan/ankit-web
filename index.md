@@ -12,3 +12,9 @@ title: Ankit Kumar Gupta
   </h2>
   <p>{{ staff_member.content | markdownify }}</p>
 {% endfor %}
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
